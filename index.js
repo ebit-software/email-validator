@@ -29,6 +29,7 @@ app.get('/', async (req, res) => {
         try {
             let checkOptions = {
                 email: email,
+                sender: email,
                 validateRegex: true,
                 validateMx: true,
                 validateTypo: true,
