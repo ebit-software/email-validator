@@ -1,0 +1,31 @@
+{
+  "name": "email-validator",
+  "version": "1.0.0",
+  "description": "email validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebit-software/email-validator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebit-software/email-validator/issues"
+  },
+  "homepage": "https://github.com/ebit-software/email-validator#readme",
+  "dependencies": {
+    "@exodus/email-deep-validator": "^3.4.0-2",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "email-deep-validator": "^3.3.0",
+    "email-domain-check": "^1.1.4",
+    "email-existence": "^0.1.6",
+    "express": "^4.17.3",
+    "mailchecker": "^4.1.13",
+    "verifalia": "^3.2.1"
+  }
+}
